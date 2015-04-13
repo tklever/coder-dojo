@@ -1,0 +1,32 @@
+{
+  "name": "Yitzchok Willroth",
+  "type": "Tutorial",
+  "license": "MIT",
+  "description": "Coder Dojo",
+  "keywords": ["tutorial"],
+  "homepage": "https://github.com/coderabbi/coder-dojo",
+  "authors" : [
+    {
+      "name": "Yitzchok Willroth",
+      "email": "yitz@coderabbi.me",
+      "homepage": "https://coderabbi.github.io",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload" : {
+    "psr-4": {
+      "CoderDojo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CoderDojo\\Test\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.4"
+  }
+}
